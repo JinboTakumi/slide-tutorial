@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image&Text Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="bgm">
+    <h2>BGM</h2>
+    <img src="./images/play.png" id="icon">
+    </div>
+    
+    <div class="container">
+        <div class="text-area">
+            <div id="slide-text">
+
+                <div class="text-item">
+                    <span class="one">01</span>
+                    <h2>slide title 1</h2>
+                    <ul>
+                        <li>slide item one</li>
+                        <li>slide item two</li>
+                        <li>slide item three</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vel modi, earum laborum sint praesentium!
+                    </p>
+                </div>
+                
+                <div class="text-item">
+                    <span class="two">02</span>
+                    <h2>slide title 1</h2>
+                    <ul>
+                        <li>slide item one</li>
+                        <li>slide item two</li>
+                        <li>slide item three</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vel modi, earum laborum sint praesentium!
+                    </p>
+                </div>
+
+                <div class="text-item">
+                    <span class="three">03</span>
+                    <h2>slide title 1</h2>
+                    <ul>
+                        <li>slide item one</li>
+                        <li>slide item two</li>
+                        <li>slide item three</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vel modi, earum laborum sint praesentium!
+                    </p>
+                </div>
+
+                <div class="text-item">
+                    <span class="four">04</span>
+                    <h2>slide title 1</h2>
+                    <ul>
+                        <li>slide item one</li>
+                        <li>slide item two</li>
+                        <li>slide item three</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vel modi, earum laborum sint praesentium!
+                    </p>
+                </div>
+
+                <div class="text-item">
+                    <span class="zero">00</span>
+                    <h2>slide title 0</h2>
+                    <ul>
+                        <li>slide item one</li>
+                        <li>slide item two</li>
+                        <li>slide item three</li>
+                    </ul>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vel modi, earum laborum sint praesentium!
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="img-area">
+            <div id="slide-img">
+                <div class="img-item1"></div>
+                <div class="img-item2"></div>
+                <div class="img-item3"></div>
+                <div class="img-item4"></div>
+                <div class="img-item0"></div>
+            </div>
+            <div class="controll">
+                <span id="left-icon"><i class="fas fa-angle-left fa-4x"></i></span>
+                <span id="right-icon"><i class="fas fa-angle-right fa-4x"></i></span>
+            </div>
+        </div>
+
+        <button id="startstop">START</button>
+
+    </div>
+
+    <audio id="mySong">
+        <source src="./audio/song.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="./main.js"></script>
+</body>
+</html>
